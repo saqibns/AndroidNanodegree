@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ActivityBackground" >
+
+    <Button
+        android:id="@+id/spotify_streamer"
+        style="@style/ProjectTheme"
+        android:layout_alignLeft="@+id/scores_app"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="26dp"
+        android:text="@string/spotify" />
+
+    <Button
+        android:id="@+id/scores_app"
+        style="@style/ProjectTheme"
+        android:layout_alignLeft="@+id/library_app"
+        android:layout_below="@+id/spotify_streamer"
+        android:layout_marginTop="10sp"
+        android:text="@string/scores" />
+
+    <Button
+        android:id="@+id/library_app"
+        style="@style/ProjectTheme"
+        android:layout_alignLeft="@+id/build_it_bigger"
+        android:layout_below="@+id/scores_app"
+        android:layout_marginTop="10sp"
+        android:text="@string/library" />
+
+    <Button
+        android:id="@+id/build_it_bigger"
+        style="@style/ProjectTheme"
+        android:layout_alignLeft="@+id/xyz_reader"
+        android:layout_below="@+id/library_app"
+        android:layout_marginTop="10sp"
+        android:text="@string/bigger" />
+
+    <Button
+        android:id="@+id/xyz_reader"
+        style="@style/ProjectTheme"
+        android:layout_alignLeft="@+id/capstone"
+        android:layout_below="@+id/build_it_bigger"
+        android:layout_marginTop="10sp"
+        android:text="@string/reader" />
+
+    <Button
+        android:id="@+id/capstone"
+        style="@style/ProjectTheme.Magneta"
+        android:layout_below="@+id/xyz_reader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10sp"
+        android:text="@string/capstone" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:text="@string/main_title"
+        android:textSize="25sp" />
+
+</RelativeLayout>
