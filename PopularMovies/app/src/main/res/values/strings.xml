@@ -16,8 +16,11 @@
         <item>Highest Rated</item>
     </string-array>
     <string-array name="pref_example_list_values">
-        <item>1</item>
         <item>0</item>
+        <item>1</item>
     </string-array>
+    <string name="sort_most_popular" translatable="false">0</string>
+    <string name="sort_highest_rated" translatable="false">1</string>
     <string name="pref_sort_key" translatable="false">DISPLAY_ORDER</string>
+    <string name="title_activity_detail">Movie Detail</string>
 </resources>

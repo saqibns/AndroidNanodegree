@@ -2,7 +2,7 @@
 
 
     <ListPreference
-        android:defaultValue="1"
+        android:defaultValue="@string/sort_most_popular"
         android:entries="@array/pref_sort_list_titles"
         android:entryValues="@array/pref_example_list_values"
         android:key="@string/pref_sort_key"
